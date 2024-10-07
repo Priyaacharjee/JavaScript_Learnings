@@ -17,7 +17,7 @@ JavaScript is one of the most widely used programming languages in web developme
 2. [JavaScript Learning Roadmap](#javascript-learning-roadmap)
 3. [Key Concepts](#key-concepts)
 4. [Resources](#resources)
-//5. [Projects & Challenges](#projects--challenges)
+5. [Projects & Challenges](#projects--challenges)
 6. [Tips & Tricks](#tips--tricks)
 7. [Conclusion](#conclusion)
 
@@ -85,14 +85,14 @@ Here are some key JavaScript concepts that I find essential:
   
 ---
 
-//## 💡 Projects & Challenges
+## 💡 Projects & Challenges
 
-//1. **Basic Calculator** - A simple calculator to practice DOM manipulation.
-//2. **To-Do App** - Building a basic to-do list application to learn event handling.
-//3. **Weather App** - Fetching weather data from an API and displaying it dynamically.
-//4. **Quiz Game** - Create an interactive quiz game to practice DOM and API fetching.
+1. **Basic Calculator** - A simple calculator to practice DOM manipulation.
+2. **To-Do App** - Building a basic to-do list application to learn event handling.
+3. **Weather App** - Fetching weather data from an API and displaying it dynamically.
+4. **Quiz Game** - Create an interactive quiz game to practice DOM and API fetching.
 
-//---
+---
 
 ## 💬 Tips & Tricks
 
@@ -114,4 +114,4 @@ Feel free to check out the code, follow along, or suggest improvements. Happy co
 ### 🔗 Connect with me
 
 - **Email**: priyaacharjee2001@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile](#)
+- **LinkedIn**: [www.linkedin.com/in/priya-acharjee-ba4119228](#)
