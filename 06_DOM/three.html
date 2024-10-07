@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color:#212121;color: #fff">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(lname){
+       const list=document.createElement('li')
+       list.innerHTML=`${lname}`
+       document.querySelector('.language').appendChild(list)
+    }
+    addLanguage("python")
+    addLanguage("typescript")
+
+    function addOptiLan(lname){
+        const list=document.createElement('li')
+        list.appendChild(document.createTextNode(lname))
+        document.querySelector('.language').appendChild(list)
+    }
+    addOptiLan("golang")
+
+    //Edit
+    const secLan=document.querySelector("li:nth-child(2)")
+    //secLan.innerHTML="Mojo"
+    const newli=document.createElement('li')
+    newli.textContent="Mojo"
+    secLan.replaceWith(newli)
+
+    const firstLan=document.querySelector("li:first-child")
+    firstLan.outerHTML='<li>Typescript</li>'
+
+    //remove
+    const lastlan=document.querySelector('li:last-child')
+    lastlan.remove()
+</script>
+</html>
