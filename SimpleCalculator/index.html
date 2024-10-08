@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <input type="text" id="inputtext" placeholder="0">
+            <button onclick="clr(this)">C</button>
+            <button onclick="del(this)">DEL</button>
+            <button onclick="calculate('%',this)">%</button>
+            <button onclick="calculate('/',this)">/</button>
+            <button onclick="calculate(7,this)">7</button>
+            <button onclick="calculate(8,this)">8</button>
+            <button onclick="calculate(9,this)">9</button>
+            <button onclick="calculate('*',this)">*</button>
+            <button onclick="calculate(4,this)">4</button>
+            <button onclick="calculate(5,this)">5</button>
+            <button onclick="calculate(6,this)">6</button>
+            <button onclick="calculate(7,this)">-</button>
+            <button onclick="calculate(1,this)">1</button>
+            <button onclick="calculate(2,this)">2</button>
+            <button onclick="calculate(3,this)">3</button>
+            <button onclick="calculate('+',this)">+</button>
+            <button onclick="calculate('.',this)">.</button>
+            <button onclick="calculate(0,this)">0</button>
+            <button onclick="res(this)"class="equal">=</button>
+        </div>
+        <div id="desc"><strong>&copy Priya</strong></div>
+    </div>
+</body>
+<script src="./calculator.js"></script>
+</html>
